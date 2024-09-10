@@ -1,0 +1,81 @@
+.App-header {
+  background-color: #39aebc;
+  height: 90px;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+}
+
+.View-Audiece {
+  width: fit-content;
+}
+
+#cursor {
+  cursor: pointer;
+}
+
+.btn-style {
+  height: 40px;
+  width: 10%;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-main {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.sub-content {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  gap: 2px;
+}
+
+.color-green {
+  width: 13%;
+  height: 16px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.color-red {
+  width: 13%;
+  height: 16px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.button_element {
+  height: 30px;
+  background-color: #41b494;
+  border: 0;
+  border-radius: 3px;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+}
+.button_element .button_element_cncl{
+  height: 30px;
+  border: 0;
+  border-radius: 3px;
+  font-size: 11px;
+ 
+}
